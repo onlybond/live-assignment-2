@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.collection{
+    position: relative;
+    width:46%;
+    height:50%;
+    margin: 30px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-size: cover;
+    
+}
+.collection:nth-child(1){
+    background-image: url('https://mf.b37mrtl.ru/rbthmedia/images/2020.02/article/5e468a7315e9f91f812a3f34.jpg');
+}
+.collection:nth-child(2){
+    background-image: url('https://blog.japanwondertravel.com/wp-content/uploads/2019/12/098A3879-1200x800.jpg');
+}
+.virtual-tour{
+    width: 30%;
+    height: 40%;
+    margin:10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    /* background-image: url('https://source.unsplash.com/1200x800/?tour-guide'); */
+}
+.virtual-tour:nth-child(3){
+    background-image: url('');
+}
+.virtual-tour:nth-child(4){
+    background-image: url('');
+
+}
+.virtual-tour:nth-child(5){
+    background-image: url('');
+}
+img{
+    display: inline-block;
+    width:12vw;
+    height: 35vh;
+    margin: 20px;   
+    border-radius: 10px;
+
+}
+h2{
+    margin:50px 0 30px 0;
+    line-height: 50px;
+    font-weight: 500;
+}
+span{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 16px;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.collection_header{
+    margin: 50px;
+    color: #ddd;
+    font-size: 20px;
+}
+.collection_desc{
+    margin: 50px;
+    color: #ddd;
+    font-size: 30px;
+}
+
+.submit{
+    display: inline-block;
+    margin: 50px 50px ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
